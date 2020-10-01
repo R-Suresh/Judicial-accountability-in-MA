@@ -10,11 +10,25 @@ This project aims to determine the conditions under which judicial rulings are l
 
 ## Data 
 
-The main data source is [masscases](http://masscases.com/), a collection of reports, from the Massachusetts government website. Public opinions text of the Supreme Judicial Court (SJC) and the Appeals Court cases were obtained from here. The data covers civil and criminal cases in the state of Massachusetts from 2008 to 2018. Many features of cases were collected including hearing dates, judges, defendants, verdicts, reversals, etc. 
+The main data source is [masscases](http://masscases.com/), a collection of reports, from the Massachusetts government website. Public opinions text of the Supreme Judicial Court (SJC) and the Appeals Court cases were scraped from here. The data covers civil and criminal cases in the state of Massachusetts from 2008 to 2019. Many features of cases were collected including hearing dates, judges, defendants, verdicts, reversals, etc. 
 
 ## Results of Analysis
 
+The figure below shows the ratio of case affirms/reversals among the supreme and appellate courts. 
+
 ![Case reversals](/images/reversal_ratio.png)
+
+The figure below shows judges of interest who had a reversal ratio of > 50%.
+
+![Case reversals by Judge](/images/judge_reversal_hist.png)
+
+The figure below shows judges with the most reversed cases recently.
+
+![Case reversals by Judge](/images/highest_judge_reversal.png)
+
+The figure below shows factors which contribute the most to case reversals.
+
+![Case reversals by Judge](/images/reversal_factors.png)
 
 This is a brief overview of the results. For an in depth view please check out the [jupyter notebooks here](/src/jupyter).
 
