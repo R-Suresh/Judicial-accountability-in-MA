@@ -20,11 +20,11 @@ The figure below shows the ratio of case affirms/reversals among the supreme and
 
 The figure below shows judges of interest who had a reversal ratio of > 50%.
 
-![Case reversals by Judge](/images/judge_reversal_hist.png)
+![Case reversals by Judge](/images/judge_reversal_histogram.png)
 
 The figure below shows judges with the most reversed cases recently.
 
-![Case reversals by Judge](/images/highest_judge_reversal.png)
+![Case reversals by Judge](/images/highest_judge_reversals.png)
 
 The figure below shows factors which contribute the most to case reversals.
 
