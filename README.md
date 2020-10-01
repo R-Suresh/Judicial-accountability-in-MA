@@ -1,6 +1,6 @@
 # BENCHMARKS: A Citizen’s Scorecard on Judicial Accountability
 
-This project aims to determine the conditions under which judicial rulings are likely to be reversed in Massachusetts. Focusing on cases appealed to the Massachusetts Supreme Judicial Court and Appellate Courts from 2008–2019, the goal was to use data science as a tool of investigative journalism to uncover never before-seen patterns of judicial behavior.
+This project aims to determine the conditions under which judicial rulings are likely to be reversed in Massachusetts. Focusing on cases appealed to the Massachusetts Supreme Judicial Court and Appellate Courts from 2008–2019, the goal was to use data science as a tool of investigative journalism to uncover never before-seen patterns of judicial behavior. This project was done as a class project in the CS 506:Tools for data science class @ Boston University.  
 
 ## Ouestions we aim to answer
 
@@ -10,13 +10,13 @@ This project aims to determine the conditions under which judicial rulings are l
 
 ## Data 
 
-The main data source is [masscases](http://masscases.com/), a collection of reports, from the Massachusetts government website. Public opinions text of the Supreme Judicial Court (SJC) and the Appeals Court cases were obtained from here.
-
-The civil and judicial cases... scraped ...
+The main data source is [masscases](http://masscases.com/), a collection of reports, from the Massachusetts government website. Public opinions text of the Supreme Judicial Court (SJC) and the Appeals Court cases were obtained from here. The data covers civil and criminal cases in the state of Massachusetts from 2008 to 2018. Many features of cases were collected including hearing dates, judges, defendants, verdicts, reversals, etc. 
 
 ## Results of Analysis
 
-<include> some pic here
+![Case reversals](/images/reversal_ratio.png)
+
+This is a brief overview of the results. For an in depth view please check out the [jupyter notebooks here](/src/jupyter).
 
 ## Running instructions
 
