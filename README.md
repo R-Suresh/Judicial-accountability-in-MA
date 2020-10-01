@@ -12,6 +12,12 @@ This project aims to determine the conditions under which judicial rulings are l
 
 The main data source is [masscases](http://masscases.com/), a collection of reports, from the Massachusetts government website. Public opinions text of the Supreme Judicial Court (SJC) and the Appeals Court cases were obtained from here.
 
+The civil and judicial cases... scraped ...
+
+## Results of Analysis
+
+<include> some pic here
+
 ## Running instructions
 
 ### Directory Structure
