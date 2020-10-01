@@ -26,7 +26,7 @@ The figure below shows judges with the most reversed cases recently.
 
 ![Case reversals by Judge](/images/highest_judge_reversals.png)
 
-The figure below shows factors which contribute the most to case reversals.
+The figure below shows factors which contribute the most to case reversals with their relative importances plotted on the y axis.
 
 ![Case reversals by Judge](/images/reversal_factors.png)
 
@@ -34,9 +34,11 @@ This is a brief overview of the results. For an in depth view please check out t
 
 ## Running instructions
 
+For a quick run just clone the repo and go to the [jupyter notebooks here](/src/jupyter). The notebooks cover the code for preprocessing and the classifiers built for case reversal prediction. More detailed running instructions are provided in the respective folder
+
 ### Directory Structure
 
-1. data: All data for project
-2. src: All code for project
-3. report : Project reports
-4. images : poster
+* `data`: All data for project
+* `src`: All code for project
+* `report` : Project reports
+* `images` : poster, readme images, etc
